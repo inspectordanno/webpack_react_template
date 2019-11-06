@@ -9,13 +9,13 @@ import './styles/styles.scss';
 const store = configureStore();
 
 ///redux
-// const jsx = () => (
+// const jsx = (
 //   <Provider store={store}>
 //     <AppRouter />
 //   </Provider>
 // );
 
-const jsx = () => (
+const jsx = (
   <h1>
     js mounted
   </h1>
