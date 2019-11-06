@@ -15,7 +15,7 @@ const store = configureStore();
 //   </Provider>
 // );
 
-const js = () => (
+const jsx = () => (
   <h1>
     js mounted
   </h1>
