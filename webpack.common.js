@@ -10,11 +10,6 @@ module.exports = {
     rules: [{
       loader: 'babel-loader',
       test: /\.js$/,
-      // options: {
-      //   presets: [
-      //     '@babel/env', '@babel/react'
-      //   ]
-      // },
       exclude: /node_modules/
     
     }, {
