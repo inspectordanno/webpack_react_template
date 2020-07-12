@@ -5,7 +5,9 @@ import configureStore from './store/configureStore';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-const store = configureStore();
+import Dropdown from './components/Dropdown';
+
+// const store = configureStore();
 
 //redux
 // const jsx = (
@@ -17,9 +19,7 @@ const store = configureStore();
 // );
 
 const jsx = (
-  <h1>
-    js mounted
-  </h1>
+  <Dropdown />
 );
 
 ReactDOM.render(jsx, document.getElementById('app'));
